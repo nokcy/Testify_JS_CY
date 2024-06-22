@@ -28,6 +28,7 @@ alert("Hello World")
  console.log (priprintThemntMe);
 
 
+// Basic if statement 
  if (age>=24) {
     console.log("You are eligible to vote");
     
@@ -44,3 +45,38 @@ const number = 74;
  } else {
     console.log(number + " is an Odd Number");
  }
+
+
+ //Switch Statement 
+ 
+ const Day = "wednesday"
+switch (Day) {
+
+    case "Tuesday":
+        console.log('The week just start na')
+        break;
+
+    case "wednesday":
+        console.log('Its mid week')
+        break;
+
+    case "Thursday":
+        console.log('They Smell weekend abi')
+        break;
+
+    case "Thursday":
+        console.log('They Smell weekend abi')
+        break;
+
+
+    case "Friday":
+        console.log('TGIF Things')
+        break;
+
+
+    default:
+        console.log('Week just start')
+        break;
+}
+
+
