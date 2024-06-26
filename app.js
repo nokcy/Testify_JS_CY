@@ -99,3 +99,21 @@ for (let number=0; number<= 20; number = number+1){
         console.log(number + " number is an Odd number")
     }
 }
+
+
+function myFunction(name) {
+
+    console.log("This is my first function " + name)
+    
+}
+
+myFunction("Nokot");
+
+//Area Of Rectangle Task 9
+function AreaOfRectangle(myLength, myWidth){
+    const myArea = myLength * myWidth;
+
+    console.log("Area Of The Rectangle is " + myArea)
+}
+
+AreaOfRectangle(2,2);
