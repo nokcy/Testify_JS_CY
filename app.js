@@ -117,3 +117,64 @@ function AreaOfRectangle(myLength, myWidth){
 }
 
 AreaOfRectangle(2,2);
+
+
+
+
+//Area Of Rectangle and Sum
+function AreaOfRectangle(myLength, myWidth){
+    const sum = myLength * myWidth;
+    const myArea = myLength + myWidth;
+
+    return [sum, myArea];
+
+    
+}
+console.log(AreaOfRectangle(5,5))
+
+
+
+//currency Converter 
+
+function converter (dollar){
+
+    const naira = dollar * 1462;
+    return naira
+}
+
+const nairaValue = converter(240);
+console.log(nairaValue)
+
+
+
+//Weather Converter 
+
+function TemperatureConvert (ferh){
+
+    const MyTempt = ferh * 189;
+    return MyTempt
+}
+
+const TemptValue = TemperatureConvert(65);
+console.log(TemptValue)
+
+
+
+
+//fucntion scope
+
+const myName = "Nokot";
+
+function greetMe(){
+
+    console.log("good morning " + myName);
+}
+
+greetMe();
+
+
+//Array
+
+const MyGuys = ['Sherif', 'Fidel', 'Yohana', 'Desmond', 'Samkay'];
+console.log(MyGuys);
+
