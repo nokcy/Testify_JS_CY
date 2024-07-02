@@ -235,3 +235,81 @@ const book = {
         console.log("Current reading status:", this.reading); 
     }
 };
+
+
+
+//Array and object
+
+
+const Human ={
+    name:'nick',
+    age: 34,
+    siblings:[{
+        name:'nokot',
+        age: 20
+    },
+
+    {
+        name:'pagi',
+        age: 15
+    },
+
+    {
+        name:'ponon',
+        age: 11
+    }
+
+    ]
+
+
+
+
+
+}
+
+console.log(Human.siblings[1])
+
+
+
+
+
+// task 15 My Personal Library 3
+
+ 
+const books = [
+    {
+        title: "Things Fall Apart",
+        description: "A novel about the life of Okonkwo and the Igbo culture.",
+        numberOfPages: 209,
+        author: "Chinua Achebe",
+        reading: true
+    },
+    {
+        title: "Half of a Yellow Sun",
+        description: "A novel about the Nigerian Civil War.",
+        numberOfPages: 448,
+        author: "Chimamanda Ngozi Adichie",
+        reading: false
+    },
+    {
+        title: "The Joys of Motherhood",
+        description: "A novel about the struggles and resilience of Nigerian women.",
+        numberOfPages: 224,
+        author: "Buchi Emecheta",
+        reading: true
+    },
+    {
+        title: "Purple Hibiscus",
+        description: "A novel about family life and politics in Nigeria.",
+        numberOfPages: 307,
+        author: "Chimamanda Ngozi Adichie",
+        reading: false
+    }
+];
+
+ 
+for (let i = 0; i < books.length; i++) {
+    if (books[i].reading) {
+        console.log(books[i]);
+    }
+}
