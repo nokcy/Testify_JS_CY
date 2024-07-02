@@ -173,8 +173,65 @@ function greetMe(){
 greetMe();
 
 
-//Array
+//Array of friends 
 
-const MyGuys = ['Sherif', 'Fidel', 'Yohana', 'Desmond', 'Samkay'];
-console.log(MyGuys);
+const friends  = ['Sherif', 'Fidel', 'Yohana', 'Desmond', 'Samkay'];
+console.log(friends );
+// best of friend 
+const bestFriend = friends[4];
+console.log(bestFriend );
 
+
+
+//Array push 
+
+const pushElement = [];
+
+pushElement.push ("Bullah", "John", "pop this");
+pushElement.pop();
+console.log(pushElement);
+
+
+//Array Slice 
+
+const monthOfYear = ["jan", "feb", "march", "april", "may", "june", "nov", "dec"];
+
+console.log(monthOfYear.slice(2,3));
+
+
+
+
+// object
+
+const myFirstObj ={
+    name: "car",
+    age: 23,
+    gender: "Male",
+    toggleOpenAndClose: function(){
+        if (myFirstObj.name==="car"){
+            myFirstObj.name="Benz"
+        } else {
+            myFirstObj.name="Bike"
+        }
+    }
+
+}
+
+
+console.log(myFirstObj.name);
+
+
+
+
+//Task 14 My Personal Library 2
+
+const book = {
+    title: "Snake under the mango tree",
+    author: "Nneka Eze",
+    year: 1725,
+    reading: false,
+    toggleReadingStatus: function() {
+        this.reading = !this.reading; 
+        console.log("Current reading status:", this.reading); 
+    }
+};
