@@ -313,3 +313,20 @@ for (let i = 0; i < books.length; i++) {
         console.log(books[i]);
     }
 }
+
+
+
+
+//Jason file
+
+const myObject = {
+    name:"Nokot",
+    Age:"23",
+    myHight:"45",
+
+}
+
+const MyObj2jSon= JSON.stringify(myObject);
+console.log(myObject)
+ 
+console.log(JSON.parse(MyObj2jSon))
